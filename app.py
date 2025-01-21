@@ -1,7 +1,11 @@
-def hello(): 
+def add(x,y):
+    return x+y
 
-    return "Hello, World!" 
+def subtract(x,y):
+    return x-y
 
-if __name__ == "__main__": 
+def multiply(x,y):
+    return x*y
 
-    print(hello()) 
+def divide(x,y):
+    return x/y
